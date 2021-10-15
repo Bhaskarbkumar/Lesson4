@@ -1,3 +1,4 @@
+package idemo;
 
 public class Airplane extends Vehicle {
 

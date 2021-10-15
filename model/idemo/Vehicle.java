@@ -1,4 +1,6 @@
-public class Vehicle {
+package idemo;
+
+public abstract class Vehicle {
 
     private int x;
     private int y;

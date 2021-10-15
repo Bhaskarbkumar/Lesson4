@@ -1,10 +1,15 @@
-import model.idemo.Car;
-import model.idemo.Vehicle;
+import java.util.ArrayList;
+
+import idemo.Vehicle;
+import idemo.Airplane;
+import idemo.Car;
 
 
-public class vehicleTest {
+
+public class VehicleTest {
 
     public static void main(String[] args) {
+
         ArrayList<Vehicle> veh = new ArrayList<>();
         veh.add(new Car(4,10,"Ford",9000,"Sedan"));
         veh.add(new Airplane(100,100,"Boeing",50000,350));
@@ -21,12 +26,14 @@ public class vehicleTest {
             if(v instanceof Car){
                 assert m.contains("Car");
             }else if (v instanceof Airplane){
-                assert m.contains("Airplane");
+                assert m.contains("Airplene");
             }
         }
         
 
 
     }
-    
 }
+
+    
+

@@ -1,3 +1,5 @@
+package idemo;
+
 public class Car extends Vehicle {
 
     private String type;
